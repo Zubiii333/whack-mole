@@ -7,6 +7,5 @@ friends!
 
 
 
-![Final game movie]
 
-[Mole game screenshot]: https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/interactivity/assets/whack-a-mole-2.png
+
