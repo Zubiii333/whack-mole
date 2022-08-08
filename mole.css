@@ -1,0 +1,82 @@
+/* Your code here */
+body {
+  zoom: 0.75;
+  /* Created with https://www.css-gradient.com */
+background: rgba(255, 255, 255, 1.0);
+background: -webkit-linear-gradient(top left, rgba(255, 255, 255, 1.0), rgba(57, 134, 223, 1.0));
+background: -moz-linear-gradient(top left, rgba(255, 255, 255, 1.0), rgba(57, 134, 223, 1.0));
+background: linear-gradient(to bottom right, rgba(255, 255, 255, 1.0), rgba(57, 134, 223, 1.0));
+}
+
+.whack-header{
+  width: 100%;
+  padding: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.wgs{
+  display:inline-block;
+  position: relative;
+  width:480px;
+  height:482px;
+  overflow: hidden;
+}
+
+.wgs__mole-head{
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  right: 77px;
+  left:55px;
+  top:0;
+  transition: margin-top 0.25s;
+}
+
+.wgs__dirt-pile{
+  position: absolute;
+  width: 320px;
+  height: 110px;
+  top: 131px;
+  bottom:0;
+}
+
+.wgs__mole-head--hidden{
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  right: 77px;
+  left:55px;
+  margin-top:486px;
+}
+
+.pf{
+  margin-top: 50px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-left:250px;
+}
+
+/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
+/* .sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645DED;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+} */
+
+/* .sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+} */
+
+/* .sb__score-holder {
+  flex: 1 0 0;
+} */
+
+/* .sb__game-over--hidden {
+  display: none;
+} */
